@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+.header{
+    text-align: center;
+    width: 100%;
+}
+
+.main{
+    width: 100%;
+}
+
+.main div div{
+    border-top: 1px solid black;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+.personalData{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.personalData h2{
+    text-align: center;
+    width: 100%;
+}
+
+.personalData table{
+    width: 50%;
+}
+
+.personalData img{
+    order: 2;
+    width: 180px;
+}
+
+.pictures{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.pictures h2{
+    text-align: center;
+    width: 100%;
+}
+
+.pictures img{
+    width: 300px;
+}
+
+.training, .professionalExperience{
+    width: 100%;
+}
+
+.training h2, .professionalExperience h2{
+    text-align: center;
+}
+
+.footer{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 20px;
+    width: 100%;
+}
