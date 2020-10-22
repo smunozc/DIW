@@ -1,0 +1,92 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+}
+
+/*Header*/
+
+header {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 20px;
+}
+
+/*Main*/
+
+/*Descripcion*/
+.seccion {
+    background-color: rgb(202, 220, 255);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 0 auto;
+    width: 80%;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.descripcion {
+    margin-bottom: 20px;
+}
+
+.descripcion p {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.descripcion img {
+    margin-left: 30%;
+    width: 40%;
+}
+
+/*Enlace Ejercicios*/
+/*Texto*/
+.enlace-ejercicios p {
+    margin: 5px;
+    margin-bottom: 20px;
+}
+
+/*Botón enlace*/
+.enlace-ejercicios a {
+    background-color: rgb(89, 161, 255);
+    color: black;
+    border-radius: 10px;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-left: 30%;
+}
+
+/*Botón enlace hover*/
+.enlace-ejercicios a:hover {
+    background-color: rgb(8, 90, 197);
+    color: white;
+}
+
+/*Footer*/
+footer {
+    margin-top: 60px;
+}
+
+/*Texto del footer*/
+footer p {
+    text-align: center;
+}
