@@ -22,7 +22,6 @@ body {
 /*Header*/
 
 header {
-    background-color: rgb(255, 255, 255);
     text-align: center;
     margin: 20px;
 }
@@ -74,6 +73,7 @@ header {
     display: block;
     font-weight: 600;
     margin: 0 auto;
+    margin-bottom: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 15px;
@@ -94,15 +94,33 @@ header {
 }
 
 /*Lista*/
-
-.list{
+.list {
 
     width: 90%;
 }
 
-.list li{
+.list li {
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+/*Tablas*/
+.tables{
+    margin: 0 auto;
+    width: 90%;
+}
+.tables, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.tables th, .tables td{
+    padding: 10px;
+}
+.tables th{
+    text-align: start;
+}
+.tables td{
+    text-align: center;
 }
 
 /*Footer*/
@@ -115,4 +133,5 @@ footer {
 /*Texto del footer*/
 footer p {
     text-align: center;
+    margin-bottom: 10px;
 }
