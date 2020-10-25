@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+/*Margin y padding reset*/
 body,
 h1,
 h2,
@@ -9,7 +12,10 @@ p {
     padding: 0;
 }
 
+/*Fuente de letra para la pagina y anchura*/
 body {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 500;
     width: 100%;
 }
 
@@ -23,12 +29,13 @@ header {
 
 /*Main*/
 
-/*Descripcion*/
+/*Seccion*/
 .seccion {
     background-color: rgb(202, 220, 255);
     border-radius: 15px;
-    padding: 20px;
+    font-size: 1.2rem;
     margin: 0 auto;
+    padding: 20px;
     width: 80%;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
@@ -36,13 +43,14 @@ header {
     -o-border-radius: 15px;
 }
 
+/*Descripcion*/
 .descripcion {
     margin-bottom: 20px;
 }
 
 .descripcion p {
     margin-bottom: 10px;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     text-align: center;
 }
 
@@ -53,37 +61,55 @@ header {
 
 /*Enlace Ejercicios*/
 /*Texto*/
-.enlace-ejercicios p {
+#enlace-ejercicios p {
     margin: 5px;
     margin-bottom: 20px;
 }
 
-/*Botón enlace*/
-.enlace-ejercicios a {
+/*Botones*/
+.btn {
     background-color: rgb(89, 161, 255);
-    color: black;
     border-radius: 10px;
-    text-decoration: none;
+    color: black;
+    display: block;
+    font-weight: 600;
+    margin: 0 auto;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 15px;
     padding-left: 15px;
+    text-align: center;
+    text-decoration: none;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-    margin-left: 30%;
+    width: 60%;
 }
 
-/*Botón enlace hover*/
-.enlace-ejercicios a:hover {
+/*Botón hover*/
+.btn:hover {
     background-color: rgb(8, 90, 197);
     color: white;
 }
 
+/*Lista*/
+
+.list{
+
+    width: 90%;
+}
+
+.list li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 /*Footer*/
 footer {
+    font-size: 1.2rem;
     margin-top: 60px;
+    margin-bottom: 20px;
 }
 
 /*Texto del footer*/
